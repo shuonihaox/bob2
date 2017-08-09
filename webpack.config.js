@@ -50,12 +50,15 @@ var extractCSS = new ExtractTextPlugin("css/[name]-[hash].css")
                 warnings:false
             }
           }),
+          new webpack.ProvidePlugin({
+            $: "jquery",
+            jQuery: "jquery"
+          }),
           new webpack.DefinePlugin({
             'process.env.NODE.ENV':"development"
           }),
           new webpack.HotModuleReplacementPlugin()
            ]        
     }
-
 
 
