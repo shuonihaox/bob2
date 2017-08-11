@@ -1,17 +1,19 @@
 $fontsize:12px;
 $bgcolor:#e0e0e0;
-
-body{
-	height:100%;
-	font-size:16px;
-	color:#51555C;
-	background:#e0e0e0;
+html,body,div,span,h1,h2,h3,h4,h5,h6,p,pre,a,code,em,img,small,strong,sub,sup,u,i,center,dl,dt,dd,ol,ul,li,fieldset,form,label{
 	margin:auto;
 	padding:0;
 	border:0;
 	outline:0;
 	font-size:100%;
 	vertical-align:baseline;
+	background:transparent;
+}
+body{
+	height:100%;
+	font-size:16px;
+	color:#51555C;
+	background:#e0e0e0;
 }
 a{
   color:#007bc4;
