@@ -1,4 +1,4 @@
-require('./../css/main.css');
+// require('./../css/main.css');
 require('./top.js');
 require('./../css/main.scss');
 
