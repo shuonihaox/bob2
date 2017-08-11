@@ -20,7 +20,7 @@ var extractCSS = new ExtractTextPlugin("css/[name]-[hash].css")
                 // {test: /\.scss$/,loader: ExtractTextPlugin.extract("style-loader", 'css!sass')},
                  {test: /\.scss$/, use: extractCSS.extract({use:["css-loader?minimize","sass-loader"]})},
                 // {test: /\.(png|jpg|gif)$/, use: ExtractTextPlugin.extract({publicPath:"../",use:["url-loader?limit=8192&name=images/[hash].[ext]"]})},
-                {test: /\.(png|jpg|gif)$/, loader: 'url-loader?limit=8192&name=../../images/[hash].[ext]'},
+                {test: /\.(png|jpg|gif)$/, loader: 'url-loader?limit=8192&name=../images/[hash].[ext]'},
                  {test: /\.svg/, loader: 'svg-url-loader'}
             ]
         },

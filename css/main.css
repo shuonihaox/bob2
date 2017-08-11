@@ -1,6 +1,6 @@
 
 html,body,div,span,h1,h2,h3,h4,h5,h6,p,pre,a,code,em,img,small,strong,sub,sup,u,i,center,dl,dt,dd,ol,ul,li,fieldset,form,label{margin:auto;padding:0;border:0;outline:0;font-size:100%;vertical-align:baseline;background:transparent;}
-h2{text-align:center; padding:10px; font-size:20px;}
+/*h2{text-align:center; padding:10px; font-size:20px;}*/
 a{color:#007bc4;text-decoration:none;}
 a:hover{text-decoration:underline;}
 ol,ul{list-style:none;}
@@ -23,7 +23,7 @@ img{border:none;}
        padding: 2% 5% 0 0;}
 .logo{width: 67px;
     height: 60px;
-    background: url(../images/logo2.jpg);
+    background: url(../../images/logo2.jpg);
     float: left;
     background-size: cover;
     margin: 1.4% 0 0 5%;}
@@ -72,19 +72,19 @@ html ul.tabs li.active, html ul.tabs li.active a:hover  {
     border: none;
     clear: both;
     float: left; 
-    width: 100%;background: url(../images/1.jpg) center top #24395f;background-size: cover;}
+    width: 100%;background: url(../../images/1.jpg) center top #24395f;background-size: cover;}
 .tab_content {
     font-size: 1.2em;
 }
-.tab_content h2 {
+/*.tab_content h2 {
     font-weight: normal;
     padding-bottom: 10px;
     border-bottom: none;
     font-size: 1.8em;
-}
-.tab_content h3 a{
+}*/
+/*.tab_content h3 a{
     color: #254588;
-}
+}*/
 .tab_content img {
     float: left;
     margin: 0 20px 20px 0;
@@ -104,19 +104,20 @@ html ul.tabs li.active, html ul.tabs li.active a:hover  {
     }
 .footer_content{width: 100%;height:100%;margin:0 auto;text-align: left;}
 .left_box{width:40%;float:left;    padding: 5%;}
-.left_box h2{color:#00BCD4;font-size: 28px;font-weight: 500;line-height: 1.1;text-align: left;padding: 20px 0px;}
+.left_box h6{color:#00BCD4;font-size: 28px;font-weight: 500;line-height: 1.1;text-align: left;padding: 20px 0px;}
 .left_box p{color:#777;font-size: 18px;text-align: left;padding: 10px 0px;}
 
 .right_box{width:40%;height:100%;float: right;padding: 5%;}
 .right_box h4{color: #563d7c;font-size: 16px;}
 .list_sty{padding-left: 0;list-style: none;    font-size: 16px;}
+.list_sty li{white-space: nowrap;overflow:hidden;margin-right: 20px;}
 .fl{float:left;}
 .about{width:25%;}
 .contant{width:25%;}
 .recruit{width:25%;}
 .address{width:25%;}
 
-.pat5{padding-top: 5%}
+.pt5{padding-top: 5%}
 
 
 .call_box{width:100%;background-color: #ffffff;    height: 100%;
@@ -148,7 +149,7 @@ background-color:#eee;
 .row_right blockquote {margin:0 0 20px;padding:10px 20px;border-left:5px #eee   solid;}
 .mt30{margin-top:30px;}
 .fl{float:left;}
-
+.w25{width:25%;}
 .call_top_content{width: 980px;
     max-width: 100%;
     padding-right: 15px;
@@ -159,13 +160,13 @@ background-color:#eee;
 }
 .clear{clear:both;}
 
-.call_top h1{font-size: 36px;margin-top: 20px;
+.call_top h5{font-size: 36px;margin-top: 20px;
     margin-bottom: 10px;font-weight: 500;    line-height: 1.1;}
 
 .call_top p{font-size: 21px;
     margin-bottom: 20px;font-weight: 200;    line-height: 1.4;}
 
-.pt5{padding-left: 5%;}
+.pl5{padding-left: 5%;}
 
 
 .call_top{position: relative;

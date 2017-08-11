@@ -1,8 +1,8 @@
 $fontsize:12px;
 $bgcolor:#e0e0e0;
 
-body{height:100%;font:$fontsize;color:#51555C;background:#e0e0e0;}
-h2{text-align:center; padding:10px; font-size:$fontsize;$fontsize:20px;}
+body{height:100%;font-size:16px;color:#51555C;background:#e0e0e0;}
+
 a{
   color:#007bc4;
   text-decoration:none;
@@ -46,7 +46,7 @@ img{
 }
 .logo{width: 67px;
     height: 60px;
-    background: url(../images/logo2.jpg);
+    background: url(../../images/logo2.jpg);
     float: left;
     background-size: cover;
     margin: 1.4% 0 0 5%;
@@ -81,8 +81,7 @@ img{
 			text-decoration: none;
 			color: #000;
 			display: block;
-			$fontsize: 1.2em;
-			font-size:$fontsize;
+			font-size:1.2em;
 			padding: 0 20px;
 			border: none;
 			outline: none;
@@ -97,18 +96,7 @@ html ul.tabs li.active, html ul.tabs li.active a:hover{
 	background: #fff;
 }
 .tab_content {
-    $fontsize:1.2em;
-    font-size: $fontsize;
-    h2{
-       font-weight: normal;
-	   padding-bottom: 10px;
-	   border-bottom: none;
-	   font-size: $fontsize;
-	   $fontsize:1.8em;
-    }
-    h3 a{
-    	color: #254588;
-    }
+    font-size:0.9em;
     img{
     	float: left;
 	    margin: 0 20px 20px 0;
@@ -121,8 +109,7 @@ html ul.tabs li.active, html ul.tabs li.active a:hover{
 		h1{
      	   padding: 80px 0 0 5%;
      	   padding: 0 5%;
-     	   $fontsize:60px;
-     	   font-size:$fontsize;
+     	   font-size:3.75em;
      	   line-height: 1.2em;
      	   color: #fff;
      	   margin: 0 0 30px;
@@ -136,6 +123,7 @@ html ul.tabs li.active, html ul.tabs li.active a:hover{
 	 	  letter-spacing: 1px;
 	 	  padding: 80px 0 0 5%;
 	 	  padding: 0 5%;
+	 	  font-size:1.5em;
 	 	}
 }
 .tab_bg{
@@ -147,7 +135,7 @@ html ul.tabs li.active, html ul.tabs li.active a:hover{
 	right: 0;
 }
 .tab_img{
-	background: url(../images/1.jpg) center top #24395f;
+	background: url(../../images/1.jpg) center top #24395f;
 	background-size: cover;
 	position: relative;
 	min-height: 600px;
@@ -172,10 +160,9 @@ html ul.tabs li.active, html ul.tabs li.active a:hover{
 	width:40%;
 	float:left;
 	padding: 5%;
-	h2{
+	h6{
 	   color:#00BCD4;
-	   $fontsize:28px;
-	   font-size: $fontsize;
+	   font-size:1.75em;
 	   font-weight: 500;
 	   line-height: 1.1;
 	   text-align: left;
@@ -183,8 +170,7 @@ html ul.tabs li.active, html ul.tabs li.active a:hover{
 	  }
 	p{
 	  color:#777;
-	  $fontsize:18px;
-	  font-size: $fontsize;
+	  font-size: 1.12em;
 	  text-align: left;
 	  padding: 10px 0px;
 	 }
@@ -196,15 +182,13 @@ html ul.tabs li.active, html ul.tabs li.active a:hover{
 	padding: 5%;
 	h4{
 	   color: #563d7c;
-	   $fontsize:16px;
-	   font-size:$fontsize;
+	   font-size:1em;
 	  }
 }
 .list_sty{
 	padding-left:0;
 	list-style: none;
-	$fontsize:16px;
-	font-size:$fontsize;
+	font-size:1em;
 	li{
 	   white-space: nowrap;
 	   overflow:hidden;
@@ -251,17 +235,15 @@ html ul.tabs li.active, html ul.tabs li.active a:hover{
 .row_right{
 	width:70%;
 	padding-bottom: 50px;
-		h1{
-		  $fontsize:36px;
-		  font-size: $fontsize;
-		  font-size: 36px;
+		h2{
+		  font-size: 2.25em;
 		  font-weight: 200;
 		  margin: 40px 0 20px;
 		  font-weight: 200;
 		}
 		p{
-		  $fontsize:36px;
-		  font-size: $fontsize;
+		  
+		  font-size: 2.25em;
 		  line-height: 1.8; 
 		  margin: 0 0 10px;
 		}
@@ -285,6 +267,7 @@ html ul.tabs li.active, html ul.tabs li.active a:hover{
     margin-left: auto;
     text-align: left;
 }
+
 .call_top{
 	position: relative;
     padding: 40px 0;
@@ -292,24 +275,22 @@ html ul.tabs li.active, html ul.tabs li.active a:hover{
     text-align: center;
      border-bottom: 1px solid #ddd;
     text-shadow: 0 1px 3px rgba(0,0,0,.4), 0 0 30px rgba(0,0,0,.075);
-    $bgcolor:#020031 !global;background: $bgcolor;
+    background: #020031;
     background: -webkit-gradient(linear,left bottom,right top,color-stop(0,#020031),color-stop(100%,#6d3353));
     background: -webkit-linear-gradient(45deg,#020031 0,#6d3353 100%);
     background: -o-linear-gradient(45deg,#020031 0,#6d3353 100%);
     background: linear-gradient(45deg,#020031 0,#6d3353 100%);
     -webkit-box-shadow: inset 0 3px 7px rgba(0,0,0,.2), inset 0 -3px 7px rgba(0,0,0,.2);
     box-shadow: inset 0 3px 7px rgba(0,0,0,.2), inset 0 -3px 7px rgba(0,0,0,.2);
-    h1{
-       $fontsize:36px;
-       font-size: $fontsize;
+    h5{
+       font-size: 2.25em;
        margin-top: 20px;
        margin-bottom: 10px;
        font-weight: 500;
        line-height: 1.1;
     }
     p{
-      $fontsize:21px;
-      font-size: $fontsize;
+      font-size: 1.31em;
       -bottom: 20px;
       font-weight: 200;
       line-height: 1.4;
@@ -372,13 +353,10 @@ html ul.tabs li.active, html ul.tabs li.active a:hover{
 			background:$bgcolor;
 		}
 }   
-.pat5{
+.pt5{
 	padding-top: 5%;
 }
-.pt70{
-	padding: 70px;
-}
-.pt5{
+.pl5{
 	padding-left: 5%;
 }
 .w25{
