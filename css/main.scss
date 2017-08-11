@@ -18,6 +18,7 @@ a{
   color:#007bc4;
   text-decoration:none;
   &:hover{
+  
     text-decoration:underfind;
     }
   }	
@@ -55,8 +56,8 @@ img{
 	margin:0 auto;
 	min-height:100px;
 }
-.logo{width: 4.2em;
-    height: 3.75em;
+.logo{width: 67px;
+    height: 60px;
     background: url(../images/logo2.jpg);
     float: left;
     background-size: cover;
@@ -73,7 +74,7 @@ img{
 	   padding:0;
 	   loat: left;
 	   list-style: none;
-	   height: 2em;
+	   height: 32px;
 	   border:none;
 	   width: 100%;
 	   li{
