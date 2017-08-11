@@ -23,7 +23,7 @@ img{border:none;}
        padding: 2% 5% 0 0;}
 .logo{width: 67px;
     height: 60px;
-    background: url(../../images/logo2.jpg);
+    background: url(../images/logo2.jpg);
     float: left;
     background-size: cover;
     margin: 1.4% 0 0 5%;}
@@ -72,7 +72,7 @@ html ul.tabs li.active, html ul.tabs li.active a:hover  {
     border: none;
     clear: both;
     float: left; 
-    width: 100%;background: url(../../images/1.jpg) center top #24395f;background-size: cover;}
+    width: 100%;background: url(../images/1.jpg) center top #24395f;background-size: cover;}
 .tab_content {
     font-size: 1.2em;
 }
